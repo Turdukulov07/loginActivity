@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BaseDateNeco1</string>
+    <string name="second_name">Second_Name</string>
+    <string name="textview">TextView</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="read">Read</string>
+</resources>

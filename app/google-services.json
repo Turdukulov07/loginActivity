@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "469071561802",
+    "project_id": "basedateneco1-2c812",
+    "storage_bucket": "basedateneco1-2c812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469071561802:android:d6f58f7bbc2f434f5012b3",
+        "android_client_info": {
+          "package_name": "com.geektech.basedateneco1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469071561802-6qtb54tkqdoc6n7nj87sjof1dohmla6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDksB8Ll6lIVnvlioKa4q2laBcQJkN9xX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469071561802-6qtb54tkqdoc6n7nj87sjof1dohmla6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

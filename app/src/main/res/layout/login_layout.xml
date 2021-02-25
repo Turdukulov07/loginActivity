@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundTint="#FFFFFF">
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="55dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edPasswod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/edLogin"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edLogin"
+        app:layout_constraintTop_toBottomOf="@+id/edLogin" />
+
+    <Button
+        android:id="@+id/bSignUp"
+        android:layout_width="272dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="52dp"
+        android:background="#C8EAE6E0"
+        android:onClick="onClickSignUp"
+        android:text="Катталуу"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/edPasswod"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="56dp" />
+
+    <Button
+        android:id="@+id/bSignIn"
+        android:layout_width="214dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="88dp"
+        android:background="#64FFDA"
+        android:onClick="onClickSignIn"
+        android:text="Кируу"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/bSignUp"
+        app:layout_constraintStart_toStartOf="@+id/bSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/bSignUp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="276dp"
+        android:text="@string/textview"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="296dp"
+        android:onClick="onClickStart"
+        android:text="Баштоо"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/bSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSignOut"
+        android:text="Выход"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/bStart"
+        app:layout_constraintStart_toStartOf="@+id/bStart"
+        tools:layout_editor_absoluteY="478dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
